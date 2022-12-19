@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <section class="home-page">
+      <div class="side-bar">
+        <div class="nav-section">
+          <p>My Dashboard</p>
+        </div>
+        <div class="middle-section">
+          <p><i class="icon fa-solid fa-gauge"></i>Dashboard</p>
+          <button class="new-btn" type="button">NEW</button>
+          <h6>THEME</h6>
+          <ul class="dasboard-lists">
+            <li class="side-ui">
+              <i class="icon fa-solid fa-droplet"></i>Colors
+            </li>
+            <li class="side-ui">
+              <i class="icon icon fa-solid fa-pencil"></i>Typography
+            </li>
+          </ul>
+          <h6>COMPONENTS</h6>
+          <ul class="dasboard-lists">
+            <li class="side-ui">
+              <i class="icon fa-solid fa-puzzle-piece"></i>Base<i
+                class="arrow-icon fa-solid fa-angle-down"
+              ></i>
+            </li>
+            <li class="side-ui">
+              <i class="icon fa-solid fa-location-arrow"></i>Buttons<i
+                class="arrow-icon fa-solid fa-angle-down"
+              ></i>
+            </li>
+            <li class="side-ui">
+              <i class="icon fa-solid fa-chart-pie"></i>Charts
+            </li>
+            <li class="side-ui">
+              <i class="icon fa-solid fa-file-waveform"></i>Forms<i
+                class="arrow-icon fa-solid fa-angle-down"
+              ></i>
+            </li>
+            <li class="side-ui">
+              <i class="icon fa-solid fa-star"></i>Icons<i
+                class="arrow-icon fa-solid fa-angle-down"
+              ></i>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <i class="footer-icon fa-sharp fa-solid fa-less-than"></i>
+        </div>
+      </div>
+      <div class="main">
+        <nav class="navbar navbar-expand-lg">
+          <ul class="navbar-nav first-ul">
+            <li class="nav-item">
+              <a class="nav-link" href="#"> <i class="fa-solid fa-bars"></i></a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Users</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Settings</a></li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><i class="fa-sharp fa-solid fa-bell"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><i class="fa-solid fa-signal"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
+          <a href="#" class="navbar-brand"
+            ><img
+              class="my-image"
+              src="images/Sudharsan - Photo.JPG"
+              alt="sudharsan"
+          /></a>
+        </nav>
+        <hr />
+        <p class="p-first">Home / <span class="span-first">Dashboard</span></p>
+        <hr />
+        <div class="statics">
+          <div class="row">
+            <div class="col-3 statics-col" style="background-color: blue">
+              <h4>26K <span class="span-second"> (-12.4%)</span></h4>
+              <span class="three-dots"
+                ><i class="fa-solid fa-ellipsis-vertical"></i
+              ></span>
+              <p>Users</p>
+            </div>
+            <div
+              class="col-3 statics-col"
+              style="background-color: rgb(7, 196, 217)"
+            >
+              <h4>$6.200 <span class="span-second"> (40.9%)</span></h4>
+              <span class="three-dots"
+                ><i class="fa-solid fa-ellipsis-vertical"></i
+              ></span>
+              <p>Income</p>
+            </div>
+            <div class="col-3 statics-col" style="background-color: orange">
+              <h4>2.49% <span class="span-second"> (84.7%)</span></h4>
+              <span class="three-dots"
+                ><i class="fa-solid fa-ellipsis-vertical"></i
+              ></span>
+              <p>Conversion Rate</p>
+            </div>
+            <div
+              class="col-3 statics-col"
+              style="background-color: rgb(255, 0, 98)"
+            >
+              <h4>44K <span class="span-second"> (-23.6%)</span></h4>
+              <span class="three-dots"
+                ><i class="fa-solid fa-ellipsis-vertical"></i
+              ></span>
+              <p>Sessions</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 statics-second">
+              <h4 style="display: inline-block">Traffic</h4>
+              <p style="width: 50%; margin: 0">January - July 2022</p>
+              <div class="dmy">
+                <button type="button" class="dmy-btn">Day</button>
+                <button type="button" class="dmy-btn">Month</button>
+                <button type="button" class="dmy-btn">Year</button>
+                <button type="button" class="btn btn-primary download-btn">
+                  <i class="fa-solid fa-cloud-arrow-down"></i>
+                </button>
+              </div>
+              <div class="statics-image">
+                <img
+                  class="currency-image"
+                  src="images/Rupee Graph.webp"
+                  alt="currency-image"
+                />
+                <img
+                  class="currency-image"
+                  src="images/Rupee Graph.webp"
+                  alt="currency-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
